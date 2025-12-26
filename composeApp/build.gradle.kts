@@ -24,6 +24,7 @@ kotlin {
             implementation(libs.okhttp)
             implementation(libs.okhttp.logging)
             implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+            implementation("androidx.compose.material:material-icons-extended:1.4.0")
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -37,6 +38,7 @@ kotlin {
             implementation(libs.okhttp)
             implementation(libs.okhttp.logging)
             implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+            implementation("androidx.compose.material:material-icons-extended:1.4.0")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
