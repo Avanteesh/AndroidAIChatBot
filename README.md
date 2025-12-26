@@ -1,6 +1,6 @@
 # An AI ChatBot with Memory
 
-
+<p>Just a very simple chatbot that has memory as temporary context. Groq API was used to integrate the API</p>
 
 This is a Kotlin Multiplatform project targeting Android.
 
